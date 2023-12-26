@@ -19,7 +19,7 @@ public class FacebookRegister {
 		
 		driver.get("https://www.facebook.com/signup");
 		driver.manage().window().maximize();
-		System.out.println("Updated");
+		System.out.println(" it is Updated");
 		Thread.sleep(2000);
 		 driver.findElement(By.name("firstname")).sendKeys("QA First Name");
 		Thread.sleep(2000);
