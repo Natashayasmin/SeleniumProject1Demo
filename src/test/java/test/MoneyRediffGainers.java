@@ -50,6 +50,7 @@ public class MoneyRediffGainers {
 		List<WebElement>pre = driver.findElements(By.xpath("//a[contains(.,'BAG Films & Media')]/preceding::*"));
 		System.out.println("The number of preceding nodes are- "+pre.size());
 		System.out.println("This is updating");
+		System.out.println("This is second updating");
 		
 		
 		//preceding sibling
